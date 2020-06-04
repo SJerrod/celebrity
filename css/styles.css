@@ -1,3 +1,43 @@
-.actors {
+ /* #actors {
+  display: none;
+}  */
+
+#scifiJourney {
   display: none;
 }
+
+#scifiFight {
+  display: none;
+} 
+
+#scifiRomance {
+  display: none;
+} 
+
+#actionRomance {
+  display: none;
+}
+
+#actionFight {
+  display: none;
+}
+
+#actionJourney {
+  display: none;
+}
+
+#dramaJourney {
+  display: none;
+}
+
+#dramaFight {
+  display: none;
+}
+
+#dramaRomance {
+  display: none;
+}
+
+
+
+
