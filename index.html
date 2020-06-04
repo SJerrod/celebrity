@@ -10,64 +10,81 @@
   <body>
     <div class="container">
       <h1 class="title">Complete the form below to find your Celebrity Match</h1>
-        <div class="container">
-          <h2>What is you favorite genre?</h2>
+      <div class="container">
+        <h2>What is you favorite genre?</h2>
+        
+        <form class="genre-form">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="scifi">
+            <label class="form-check-label" for="movieGenre">Sci Fi</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="action">
+            <label class="form-check-label" for="movieGenre">Action</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="drama">
+            <label class="form-check-label" for="movieGenre">Drama</label>
+          </div>
           
-          <form class="genre-form">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="celeb1">
-              <label class="form-check-label" for="movieGenre">Sci Fi</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="celeb2">
-              <label class="form-check-label" for="movieGenre">Action</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="genre" id="movieGenre" value="celeb3">
-              <label class="form-check-label" for="movieGenre">Drama</label>
-            </div>
-            <div class="text">
-              <input type="submit" class="btn-btn-light">
-            </div>
-          </form>
           <h2>What scene do you look forward to the most?</h2>
-
-          <form class="scene-form">
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="movieScene" id="movieScene" value="celeb1">
-              <label class="form-check-label" for="movieScene">The journey</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="movieScene" id="movieScene" value="celeb2">
-              <label class="form-check-label" for="movieScene">The fight</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="movieScene" id="movieScene" value="celeb3">
-              <label class="form-check-label" for="movieScene">The romance</label>
-            </div>
-          </form>
-        </div>  
-        
           
-          
-          
-        
-        
-        <div id="scifi">
-          <p>Harrison Ford</p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="scene" id="movieScene" value="journey">
+            <label class="form-check-label" for="movieScene">The journey</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="scene" id="movieScene" value="fight">
+            <label class="form-check-label" for="movieScene">The fight</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="scene" id="movieScene" value="romance">
+            <label class="form-check-label" for="movieScene">The romance</label>
+          </div>
+          <div class="text">
+            <input type="submit" class="btn-btn-light">
+          </div>
+        </form>
+      </div>  
+      
+      <div class="actors">
+        <div id="scifiJourney">
           <p>Matthew McConaughey</p>
-          <p>Sigourney Weaver</p>
         </div>
 
-        <div id="action">
+        <div id="scifiFight">
+          <p>Harrison Ford</p>
+        </div>
+
+        <div id="scifiRomance">
+          <p>Jennifer Laurence</p>
+        </div>
+
+        <div id="actionJourney">
+          <p>Michelle Rogdiriguez</p>
+        </div>
+
+        <div id="actionFight">
           <p>Jackie Chan</p>
-          <p>Bruce Willis</p>
-          <p>Michelle Rogdirigue</p>
         </div>
 
-        <div id="drama">
+        <div id="actionRomance">
+          <p>Bruce Willis</p>
+        </div>
+
+
+        <div id="dramaJourney">
+          <p>Benedict Cumberbatch</p>
+        </div>
+
+        <div id="dramaFight">
+          <p>Brie Larson</p>
+        </div>
+
+        <div id="dramaRomance">
           <p>Keri Russell </p>
         </div>
+      </div>
     </div>
   </body>
 </html>
