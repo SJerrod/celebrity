@@ -1,3 +1,11 @@
-#story {
+#scifi {
+  display: none;
+}
+
+#action{
+  display: none;
+}
+
+#drama{
   display: none;
 }
